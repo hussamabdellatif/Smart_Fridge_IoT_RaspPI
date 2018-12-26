@@ -2,8 +2,8 @@ import sys
 import mysql.connector as mariadb
 import logging
 import json
-username = 'web'
-password = '00039jp3jcx'
+username = 'username' #your username goes here
+password = 'pass' #your password goes here
 database = 'fridge'
 try:
       mariadb_connection = mariadb.connect(user=username, password = password, database=database)
